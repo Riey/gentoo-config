@@ -1,0 +1,47 @@
+gui-apps/waybar mpd network popups tray wifi
+
+# required by x11-misc/xdg-utils-1.1.3_p20200220-r1::gentoo
+# required by kde-frameworks/kf-env-5::gentoo
+# required by kde-frameworks/attica-5.77.0::gentoo
+# required by kde-frameworks/knewstuff-5.77.0-r1::gentoo
+# required by kde-plasma/kwin-5.20.5-r1::gentoo
+# required by kde-plasma/libkworkspace-5.20.5::gentoo
+# required by kde-plasma/plasma-workspace-5.20.5-r4::gentoo
+# required by kde-plasma/plasma-desktop-5.20.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=app-text/xmlto-0.0.28-r3 text
+# required by media-libs/phonon-vlc-0.11.1::gentoo
+# required by media-libs/phonon-4.11.1-r1::gentoo[vlc]
+# required by kde-plasma/plasma-workspace-5.20.5-r4::gentoo
+# required by kde-plasma/plasma-desktop-5.20.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=media-video/vlc-3.0.12.1-r100 dbus vorbis ogg
+# required by media-video/vlc-3.0.12.1-r100::gentoo
+# required by media-libs/phonon-vlc-0.11.1::gentoo
+# required by media-libs/phonon-4.11.1-r1::gentoo[vlc]
+# required by kde-plasma/plasma-workspace-5.20.5-r4::gentoo
+# required by kde-plasma/plasma-desktop-5.20.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=sys-libs/zlib-1.2.11-r3 minizip
+# required by kde-plasma/plasma-workspace-5.20.5-r4::gentoo
+# required by kde-plasma/plasma-desktop-5.20.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=dev-qt/qtgui-5.15.2-r1 jpeg
+# required by kde-plasma/plasma-workspace-5.20.5-r4::gentoo
+# required by kde-plasma/plasma-desktop-5.20.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=kde-frameworks/prison-5.77.0 qml
+# required by kde-plasma/kwin-5.20.5-r1::gentoo
+# required by kde-plasma/libkworkspace-5.20.5::gentoo
+# required by kde-plasma/plasma-workspace-5.20.5-r4::gentoo
+# required by kde-plasma/plasma-desktop-5.20.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=kde-frameworks/kitemmodels-5.77.0 qml
+# required by kde-frameworks/kcoreaddons-5.77.0::gentoo
+# required by kde-plasma/kactivitymanagerd-5.20.5::gentoo
+# required by kde-frameworks/kactivities-5.77.0::gentoo
+# required by kde-frameworks/kactivities-stats-5.77.0::gentoo
+# required by kde-plasma/plasma-workspace-5.20.5-r4::gentoo
+# required by kde-plasma/plasma-desktop-5.20.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=dev-qt/qtcore-5.15.2-r2 icu

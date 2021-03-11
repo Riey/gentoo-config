@@ -1,0 +1,17 @@
+sys-kernel/gentoo-sources ~amd64
+www-client/firefox ~amd64
+www-client/firefox-bin ~amd64
+virtual/rust ~amd64
+dev-lang/rust ~amd64
+dev-lang/rust-bin ~amd64
+dev-util/rustup ~amd64
+dev-util/cargo-ebuild ~amd64
+
+app-admin/yadm ~amd64
+
+gui-apps/waybar ~amd64
+dev-libs/date ~amd64
+
+sys-apps/bat ~amd64
+net-wireless/rincat-rtl88x2bu ~amd64
+

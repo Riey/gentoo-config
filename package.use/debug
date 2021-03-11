@@ -1,0 +1,4 @@
+sys-devel/gdb source-highlight xml lzma
+sys-devel/clang xml default-lld
+dev-util/lldb lzma
+

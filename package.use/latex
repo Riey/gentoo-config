@@ -1,0 +1,5 @@
+app-text/texlive l10n_ko X cjk epspdf extra graphics pdfannotextractor png texi2html
+app-text/texlive-core cjk xetex
+app-text/poppler cairo
+app-text/evince djvu dvi t1lib tiff xps
+

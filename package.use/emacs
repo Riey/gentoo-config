@@ -1,0 +1,4 @@
+app-editors/emacs cairo gfile gif gui harfbuzz imagemagick jpeg png json libxml2 svg tiff xwidgets
+app-emacs/emacs-common-gentoo gui
+media-libs/harfbuzz icu
+

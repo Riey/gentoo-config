@@ -1,0 +1,4 @@
+media-video/ffmpeg x264 bluray jack libass libdrm librtmp lzma mp3 opengl opus oss rav1e svg vapau vorbis x265 zeromq
+media-video/mpv archive bluray drm dvd gbm jack vdapu
+media-video/vlc bluray dav1d dvd faad flac fontconfig libass matroska mp3 opus png sftp vdapu x264 x265
+

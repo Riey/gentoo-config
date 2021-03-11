@@ -1,0 +1,6 @@
+www-client/firefox hwaccel jack lto pgo
+x11-base/xorg-server xvfb
+media-libs/libpng apng
+media-libs/libvpx postproc
+dev-lang/python sqlite
+

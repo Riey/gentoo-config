@@ -1,0 +1,5 @@
+sys-apps/dbus user-session
+dev-libs/glib dbus
+www-client/firefox dbus
+kde-framewords/knotifications dbus
+

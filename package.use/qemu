@@ -1,0 +1,4 @@
+app-emulation/qemu io-uring jemalloc numa ssh usb vhost-user-fs vte zstd alsa opengl jack
+net-misc/spice-gtk usbredir
+net-dns/dnsmasq script
+
