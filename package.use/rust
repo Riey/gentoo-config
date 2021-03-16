@@ -1,2 +1,2 @@
-dev-lang/rust miri wasm rustfmt clippy system-llvm nightly
+dev-lang/rust miri wasm rustfmt clippy system-llvm nightly -parallel-compiler
 
