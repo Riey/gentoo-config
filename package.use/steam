@@ -81,7 +81,8 @@ x11-proto/glproto abi_x86_32
 x11-proto/inputproto abi_x86_32
 x11-proto/kbproto abi_x86_32
 x11-proto/presentproto abi_x86_32
-x11-proto/xcb-proto abi_x86_32
+# move x11-proto/xcb-proto x11-base/xcb-proto
+x11-base/xcb-proto abi_x86_32
 x11-proto/xextproto abi_x86_32
 x11-proto/xf86bigfontproto abi_x86_32
 x11-proto/xf86driproto abi_x86_32
@@ -148,4 +149,44 @@ sys-fs/eudev abi_x86_32
 # required by games-util/steam-meta-0-r20160817::steam-overlay
 # required by steam-meta (argument)
 >=dev-libs/elfutils-0.182 abi_x86_32
-
+# required by net-misc/curl-7.74.0-r2::gentoo[http2]
+# required by dev-lang/rust-1.50.0::gentoo
+# required by virtual/rust-1.50.0::gentoo
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by x11-libs/gtk+-2.24.32-r1::gentoo
+# required by media-sound/alsa-tools-1.2.2-r1::gentoo[gtk]
+# required by @selected
+# required by @world (argument)
+>=net-libs/nghttp2-1.41.0 abi_x86_32
+# required by dev-libs/glib-2.66.7::gentoo
+# required by x11-libs/gtk+-2.24.32-r1::gentoo
+# required by media-sound/alsa-tools-1.2.2-r1::gentoo[gtk]
+# required by @selected
+# required by @world (argument)
+>=virtual/libintl-0-r2 abi_x86_32
+# required by x11-libs/gdk-pixbuf-2.42.2::gentoo[jpeg]
+# required by x11-libs/gtk+-2.24.32-r1::gentoo
+# required by media-sound/alsa-tools-1.2.2-r1::gentoo[gtk]
+# required by @selected
+# required by @world (argument)
+>=virtual/jpeg-100 abi_x86_32
+# required by virtual/jpeg-100::gentoo
+# required by x11-libs/gdk-pixbuf-2.42.2::gentoo[jpeg]
+# required by x11-libs/gtk+-2.24.32-r1::gentoo
+# required by media-sound/alsa-tools-1.2.2-r1::gentoo[gtk]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libjpeg-turbo-2.0.6 abi_x86_32
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by x11-libs/gtk+-2.24.32-r1::gentoo
+# required by media-sound/alsa-tools-1.2.2-r1::gentoo[gtk]
+# required by @selected
+# required by @world (argument)
+>=virtual/rust-1.50.0 abi_x86_32
+# required by virtual/rust-1.50.0::gentoo
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by x11-libs/gtk+-2.24.32-r1::gentoo
+# required by media-sound/alsa-tools-1.2.2-r1::gentoo[gtk]
+# required by @selected
+# required by @world (argument)
+>=dev-lang/rust-1.50.0 abi_x86_32

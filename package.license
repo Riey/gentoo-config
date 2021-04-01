@@ -1,3 +1,7 @@
-# required by linux-firmware (argument)
-=sys-kernel/linux-firmware-20210208 linux-fw-redistributable no-source-code
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code
 games-util/steam-launcher ValveSteamLicense
+net-im/discord-bin all-rights-reserved
+dev-util/idea-community codehaus-classworlds
+sci-mathematics/gimps GIMPS
+app-benchmarks/geekbench geekbench
+app-arch/unrar unRAR

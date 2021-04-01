@@ -1,0 +1,213 @@
+app-emulation/wine-staging cups gsm gssapi kerberos ldap mp3 netapi pcap samba udev vkd3d xinerama
+app-emulation/wine-vanilla cups gsm gssapi kerberos ldap mp3 netapi pcap samba udev vkd3d xinerama
+
+# required by app-emulation/faudio-21.01::gentoo
+# required by app-emulation/wine-vanilla-6.0::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+app-emulation/faudio abi_x86_32
+media-libs/libsdl2 abi_x86_32 gles2
+x11-libs/libxkbcommon abi_x86_32
+virtual/glu abi_x86_32
+media-libs/glu abi_x86_32
+sys-libs/libunwind abi_x86_32
+# required by app-emulation/wine-vanilla-6.0::gentoo[lcms]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/lcms-2.11 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0::gentoo[unwind]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=sys-libs/libunwind-1.5.0-r1 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0::gentoo[vulkan]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=media-libs/vulkan-loader-1.2.162-r1 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0::gentoo[xml]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=dev-libs/libxslt-1.1.34-r1 abi_x86_32
+# required by app-emulation/wine-vanilla-6.0::gentoo[gecko]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=app-emulation/wine-gecko-2.47.2 abi_x86_32
+# required by dev-libs/libxslt-1.1.34-r1::gentoo[crypt]
+# required by app-emulation/wine-vanilla-6.0::gentoo[xml]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=dev-libs/libgcrypt-1.8.6 abi_x86_32
+# required by dev-libs/libgcrypt-1.8.6::gentoo
+# required by dev-libs/libxslt-1.1.34-r1::gentoo[crypt]
+# required by app-emulation/wine-vanilla-6.0::gentoo[xml]
+# required by virtual/wine-0-r7::gentoo
+# required by wine (argument)
+>=dev-libs/libgpg-error-1.38 abi_x86_32
+# required by app-emulation/wine-staging-6.1::gentoo[gsm]
+# required by wine-staging (argument)
+>=media-sound/gsm-1.0.13-r1 abi_x86_32
+# required by app-emulation/wine-staging-6.1::gentoo[mp3]
+# required by wine-staging (argument)
+>=media-sound/mpg123-1.26.3 abi_x86_32
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=net-fs/samba-4.12.9-r1 abi_x86_32 winbind
+# required by app-emulation/wine-staging-6.1::gentoo[pcap]
+# required by wine-staging (argument)
+>=net-libs/libpcap-1.10.0 abi_x86_32
+# required by app-emulation/wine-staging-6.1::gentoo[vkd3d]
+# required by wine-staging (argument)
+>=app-emulation/vkd3d-1.2 abi_x86_32
+# required by x11-libs/xcb-util-image-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-cursor-0.1.3-r3::gentoo
+# required by kde-plasma/kwin-5.20.5-r1::gentoo
+# required by kde-plasma/plasma-desktop-5.20.5-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/xcb-util-0.4.0-r2 abi_x86_32
+# required by x11-libs/xcb-util-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-image-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-cursor-0.1.3-r3::gentoo
+# required by kde-plasma/kwin-5.20.5-r1::gentoo
+# required by kde-plasma/plasma-desktop-5.20.5-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/xcb-util-keysyms-0.4.0-r2 abi_x86_32
+# required by x11-libs/xcb-util-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-image-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-cursor-0.1.3-r3::gentoo
+# required by kde-plasma/kwin-5.20.5-r1::gentoo
+# required by kde-plasma/plasma-desktop-5.20.5-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/xcb-util-wm-0.4.1-r3 abi_x86_32
+# required by x11-libs/xcb-util-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-image-0.4.0-r2::gentoo
+# required by gui-libs/wlroots-0.12.0::gentoo[X]
+# required by gui-apps/waybar-0.9.5::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/xcb-util-cursor-0.1.3-r3 abi_x86_32
+# required by x11-libs/xcb-util-0.4.0-r2::gentoo
+# required by app-emulation/vkd3d-1.2::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[vkd3d]
+# required by wine-staging (argument)
+>=x11-libs/xcb-util-image-0.4.0-r2 abi_x86_32
+# required by x11-libs/xcb-util-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-image-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-cursor-0.1.3-r3::gentoo
+# required by kde-plasma/kwin-5.20.5-r1::gentoo
+# required by kde-plasma/plasma-desktop-5.20.5-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/xcb-util-renderutil-0.3.9-r3 abi_x86_32
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=app-arch/libarchive-3.5.1 abi_x86_32
+# required by sys-libs/talloc-2.3.1::gentoo
+# required by sys-libs/ldb-2.1.4-r1::gentoo
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=dev-libs/libbsd-0.10.0 abi_x86_32
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=dev-libs/popt-1.18 abi_x86_32
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=net-libs/libnsl-1.3.0-r1 abi_x86_32
+# required by app-crypt/mit-krb5-1.18.2-r3::gentoo
+# required by virtual/krb5-0-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[gssapi]
+# required by wine-staging (argument)
+>=sys-libs/e2fsprogs-libs-1.45.7 abi_x86_32
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=sys-libs/ldb-2.1.4-r1 abi_x86_32
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=sys-libs/liburing-0.7-r1 abi_x86_32
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=sys-libs/talloc-2.3.1 abi_x86_32
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=sys-libs/tdb-1.4.3 abi_x86_32
+# required by sys-libs/ldb-2.1.4-r1::gentoo
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=sys-libs/tevent-0.10.2 abi_x86_32
+# required by net-fs/samba-4.12.9-r1::gentoo[python_single_target_python3_8]
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=dev-python/subunit-1.4.0 abi_x86_32
+# required by net-fs/samba-4.12.9-r1::gentoo[system-mitkrb5]
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=app-crypt/mit-krb5-1.18.2-r3 abi_x86_32
+# required by sys-libs/ldb-2.1.4-r1::gentoo
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=dev-util/cmocka-1.1.5 abi_x86_32
+# required by net-libs/libnsl-1.3.0-r1::gentoo
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=net-libs/libtirpc-1.2.6 abi_x86_32
+# required by app-crypt/mit-krb5-1.18.2-r3::gentoo[keyutils]
+# required by virtual/krb5-0-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[gssapi]
+# required by wine-staging (argument)
+>=sys-apps/keyutils-1.6.1 abi_x86_32
+# required by dev-python/subunit-1.4.0::gentoo
+# required by net-fs/samba-4.12.9-r1::gentoo[python_single_target_python3_8]
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=dev-libs/check-0.15.2-r1 abi_x86_32
+# required by dev-python/subunit-1.4.0::gentoo
+# required by net-fs/samba-4.12.9-r1::gentoo[python_single_target_python3_8]
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=dev-util/cppunit-1.15.1-r2 abi_x86_32
+# required by sys-libs/ldb-2.1.4-r1::gentoo[lmdb]
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=dev-db/lmdb-0.9.28 abi_x86_32
+# required by app-arch/libarchive-3.5.1::gentoo[lzma]
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=app-arch/xz-utils-5.2.5 abi_x86_32
+# required by app-arch/libarchive-3.5.1::gentoo[acl]
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=virtual/acl-0-r2 abi_x86_32
+# required by virtual/acl-0-r2::gentoo
+# required by net-fs/samba-4.12.9-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[netapi]
+# required by wine-staging (argument)
+>=sys-apps/acl-2.2.53-r1 abi_x86_32
+# required by app-crypt/mit-krb5-1.18.2-r3::gentoo
+# required by virtual/krb5-0-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[gssapi]
+# required by wine-staging (argument)
+>=dev-libs/libverto-0.3.1-r1 abi_x86_32
+# required by dev-libs/libverto-0.3.1-r1::gentoo[libev]
+# required by app-crypt/mit-krb5-1.18.2-r3::gentoo
+# required by virtual/krb5-0-r1::gentoo
+# required by app-emulation/wine-staging-6.1::gentoo[gssapi]
+# required by wine-staging (argument)
+>=dev-libs/libev-4.33 abi_x86_32
+# required by app-emulation/wine-staging-6.1::gentoo[gssapi]
+# required by wine-staging (argument)
+>=virtual/krb5-0-r1 abi_x86_32

@@ -1,0 +1,4 @@
+media-libs/vapoursynth ~amd64
+dev-libs/ncnn ~amd64
+media-plugins/vapoursynth-waifu2x-ncnn-vulkan ~amd64
+
